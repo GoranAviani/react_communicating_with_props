@@ -5,8 +5,8 @@ const App = () => {
 
     return (
         <>
-            APP
-            <Comment/>
+            Comment section:
+            <Comment name={"test name"} text={"test text"}/>
         </>)
 }
 
