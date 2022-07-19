@@ -3,10 +3,23 @@ import Comment from "./components/Comment";
 
 const App = () => {
 
+    const comments = [
+        {
+            name: "Oliver",
+            comment: "Great work!",
+        },
+        {
+            name: "Goran",
+            comment: "Nice!"
+        }
+    ]
+
     return (
         <>
             Comment section:
-            <Comment name={"test name"} text={"test text"}/>
+            {
+                comments.map(comment => <Comment name={comment.name} text={comment.comment}/>)
+            }
         </>)
 }
 
