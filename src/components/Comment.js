@@ -1,13 +1,12 @@
 import React from "react";
 
-const Comment = () => {
+const Comment = ({name, text}) => {
 
     return (
         <>
             <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <li>Name: {name}</li>
+                <li>Text: {text}</li>
             </ul>
             ------------------------------
         </>
