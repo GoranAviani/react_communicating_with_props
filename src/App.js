@@ -6,6 +6,7 @@ const App = () => {
     const comments = [
         {
             name: "Oliver",
+            surname: "Aviani",
             comment: "Great work!",
         },
         {
