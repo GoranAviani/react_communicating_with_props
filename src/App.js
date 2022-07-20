@@ -19,7 +19,8 @@ const App = () => {
         <>
             Comment section:
             {
-                comments.map((comment, key) => <Comment key={key} name={comment.name} text={comment.comment}/>)
+                comments.map((comment, key) => <Comment key={key} name={comment.name} text={comment.comment}
+                                                        surname={comment.surname}/>)
             }
         </>)
 }
