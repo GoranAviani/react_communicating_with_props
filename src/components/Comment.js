@@ -13,4 +13,8 @@ const Comment = ({name, text}) => {
 
     )
 }
+Comment.defaultProps = {
+    text: "default text"
+}
+
 export default Comment;
